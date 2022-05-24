@@ -146,6 +146,11 @@
         letter-spacing: 0.03em;
         color: var(--secondary-text-color);
    }
+   .address-link:hover, .address-link:focus,
+   .footer-email:hover, .footer-email:focus,
+   .footer-tel:hover, .footer-tel:focus {
+       color: var(--accent-color);
+   }
   /*------------------------PORTFOLIO------------------------*/
     .filter-btn{
         background-color: #F5F4FA;;
